@@ -8,7 +8,8 @@
                     "m_aGoodsItems": [
                         {
                             "m_sClassName": "WaterBottle", // просто стринг с названием которое вписывается в админ панели
-                            "m_sItemAmount": 1000 // нужно чтобы могло быть от -1 до бесконечности, и это указывалось в админ панели для каждого предмета.
+                            "m_sItemAmount": 1, // нужно чтобы могло быть от 1 до бесконечности, и это указывалось в админ панели для каждого предмета.
+                            "m_sItemQuantity": 1000 // нужно чтобы могло быть от -1 до бесконечности, и это указывалось в админ панели для каждого предмета.
                         }
                     ]
                 }
@@ -20,15 +21,18 @@
                     "m_aGoodsItems": [
                         {
                             "m_sClassName": "ScrewDriver",
-                            "m_sItemAmount": -1
+                            "m_sItemAmount": 1,
+                            "m_sItemQuantity": -1 // у предмета нет количества поэтому -1 (или если есть то будет максимальное количество)
                         },
                         {
                             "m_sClassName": "Hatchet",
-                            "m_sItemAmount": -1
+                            "m_sItemAmount": 1,
+                            "m_sItemQuantity": -1
                         },
                         {
                             "m_sClassName": "9vBattery",
-                            "m_sItemAmount": 50
+                            "m_sItemAmount": 5,
+                            "m_sItemQuantity": 50
                         }
                     ]
                 }
